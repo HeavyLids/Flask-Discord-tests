@@ -1,0 +1,16 @@
+language: python
+python:
+  - "3.8"
+env:
+  global:
+    - PYTHONPATH="/home/travis/build/flask_discord"
+install:
+  - pip install .
+  - pip install pytest-cov pytest-mock coveralls
+  - pip install keyrings.alt
+  - free -h
+  - top -bn1
+script: py.test --cov-report=term --cov-config=.coveragerc --cov=messages tests --cov=flask_discord
+after_success:
+- free -h
+- top -bn1

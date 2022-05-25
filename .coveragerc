@@ -1,0 +1,3 @@
+[run]
+source = ./flask_discord
+omit = ./flask_discord/client.py
