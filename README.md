@@ -59,7 +59,6 @@ if __name__ == "__main__":
     app.run()
 ```
 
-For an example to the working application, check [`test_app.py`](tests/test_app.py)
 
 
 ### Требования
