@@ -69,7 +69,7 @@ if __name__ == "__main__":
 
 
 ### Документация
-Head over to [documentation] for full API reference. 
+https://flask-discord.readthedocs.io/en/latest/
 
 
-[documentation]: https://flask-discord.readthedocs.io/en/latest/
+
