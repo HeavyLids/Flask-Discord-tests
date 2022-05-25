@@ -1,17 +1,10 @@
-# Flask-Discord
-[![PyPI](https://img.shields.io/pypi/v/Flask-Discord?style=for-the-badge)](https://pypi.org/project/Flask-Discord/) [![Read the Docs](https://img.shields.io/readthedocs/flask-discord?style=for-the-badge)](https://flask-discord.readthedocs.io/en/latest/) [![Discord](https://img.shields.io/discord/690878977920729177?label=Discord%20Community&logo=Discord&style=for-the-badge)](https://discord.gg/7CrQEyP)
-
-Discord OAuth2 extension for Flask.
-
-
-### Installation
-To install current latest release you can use following command:
+### Установка
 ```sh
 python3 -m pip install Flask-Discord
 ```
 
 
-### Basic Example
+### Пример
 ```python
 import os
 
@@ -69,14 +62,14 @@ if __name__ == "__main__":
 For an example to the working application, check [`test_app.py`](tests/test_app.py)
 
 
-### Requirements
+### Требования
 * Flask
 * requests_oauthlib
 * cachetools
 * discord.py
 
 
-### Documentation
+### Документация
 Head over to [documentation] for full API reference. 
 
 
